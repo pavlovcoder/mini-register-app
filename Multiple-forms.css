@@ -1,0 +1,81 @@
+html,body {
+    font-size: 17px;
+    font-family: Raleway;
+    color: #fff;
+}
+
+#code {float:left; width: 40px;}
+#num {float:left; width: 130px; margin-left: 5px;}
+#street {float: left;width: 95px;}
+#home { width: 35px;float: left;}
+#ap {width: 30px;float: left;}
+#hospital {float: none;}
+#day {width: 30px; float: left;}
+#mon {width: 30px; float: left;}
+#year {width: 100px; float:left;}
+#select-list, #level-problem {width: 170px;}
+
+/* Customize registration form: */
+#regForm {
+    background-color: green;
+    margin: 100px auto;
+    padding: 40px;
+    width: 50%;
+    min-width: 300px;
+    box-shadow: 0px 2px 10px #aaa;
+}
+
+.tab {
+    display:none;
+}
+
+input, option, select {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border-bottom: 1px solid #aaa;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5 ease-in-out;
+    border: 2px solid #fff;
+}
+
+button {
+    padding: 10px 20px;
+    width: auto;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5 ease-in-out;
+    float: none;
+    text-align: center;
+    margin-top: 60px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: green;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5 ease-in-out;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.step.active {background-color: #fff;}
+.step.finish {background-color: #4CAF50;}
